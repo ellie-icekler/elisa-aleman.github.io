@@ -1,2 +1,2 @@
 # elisa-aleman.github.io
-CV website
+Personal CV website in English, Spanish and Japanese
