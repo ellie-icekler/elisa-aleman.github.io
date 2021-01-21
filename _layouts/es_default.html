@@ -7,6 +7,9 @@
             <meta name="description" content="Mi nombre es Elisa Claire Alemán Carreón. Soy una estudiante internacional de doctorado nacida en México, y actualmente curso el doctorado en Ciencia de Información e Ingeniería de Control en la Universidad Tecnológica de Nagaoka, en Japón. Mi investigación es sobre Redes Neurales Artificiales, Inteligencia Artificial y Minado de Datos. Mis intereses de investigación actuales son de Minado de Texto y Datos para propósitos empresariales, así como aplicaciones multilinguales. Vea mi lista de publicaciones y PDFs aquí.">
             <meta name="og:title" property="og:title" content="Elisa Claire Alemán Carreón: publicaciones">
             <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+            {% if site.google_analytics and jekyll.environment == 'production' %}
+            {% include analytics.html %}
+            {% endif %}
         </head>
         <body>
             <nav>

@@ -7,6 +7,9 @@
             <meta name="description" content="My name is Elisa Claire Alemán Carreón, I'm an international PhD student born in Mexico, currently and am currently pursuing a PhD in Information Science and Control Engineering in the Nagaoka University of Technology, Nagaoka, Japan. I do research in Artificial Neural Networks, Artificial Intelligence, and Data Mining. My research interests are currently Text and Data mining for management purposes and multilingual endeavors. See my list of publications and PDFs here.">
             <meta name="og:title" property="og:title" content="Elisa Claire Alemán Carreón's publications">
             <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+            {% if site.google_analytics and jekyll.environment == 'production' %}
+            {% include analytics.html %}
+            {% endif %}
         </head>
         <body>
             <nav>
