@@ -12,6 +12,7 @@ html{
     height: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
+    padding: env(safe-area-inset);
 }
 
 *,
@@ -352,7 +353,7 @@ footer {
     }
     
     body {
-        padding-bottom: 32em;
+        padding-bottom: 35em;
         overflow-wrap: break-word;
         word-wrap: break-word;
         font-size: 1em;
