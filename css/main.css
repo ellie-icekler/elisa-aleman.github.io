@@ -224,7 +224,7 @@ ul li{
     float:left;
     margin-right:auto;
     margin-left:auto;
-    margin-bottom:1.5em;
+    margin-bottom:1em;
     margin-top:1em;
 }
 
@@ -362,6 +362,7 @@ footer {
         display:block;
         width:100%;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     .footer-div {
@@ -413,9 +414,7 @@ footer {
     .github_img {
         display: block;
         float:center;
-        width: 70%;
-        max-width: 20em;
-        margin-right:15%;
-        margin-left:15%;
+        width: 100%;
+        margin-bottom: 0;
     }
 }
